@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/brum"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/journeyfinder_logo"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/login_sign_colour"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+            <EditText
+                android:id="@+id/sign_username"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:background="@drawable/text_box"
+                android:fontFamily="@font/abel"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#686868" />
+
+            <EditText
+                android:id="@+id/sign_email"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:background="@drawable/text_box"
+                android:fontFamily="@font/abel"
+                android:hint="EMAIL"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#686868" />
+
+            <EditText
+                android:id="@+id/confirm_email"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:background="@drawable/text_box"
+                android:fontFamily="@font/abel"
+                android:hint="CONFIRM EMAIL"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#686868" />
+
+            <EditText
+                android:id="@+id/sign_pass"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:background="@drawable/text_box"
+                android:fontFamily="@font/abel"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#686868" />
+
+            <EditText
+                android:id="@+id/confirm_pass"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:padding="10dp"
+                android:background="@drawable/text_box"
+                android:fontFamily="@font/abel"
+                android:hint="CONFIRM PASSWORD"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#686868" />
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_box"
+            android:fontFamily="@font/abel"
+            android:text="SIGN IN" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
