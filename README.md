@@ -13,8 +13,35 @@ Journey Finder bridges the gap between static navigation and real time community
 - Accessibility-First UI: Journey Finder features a high-contrast interface specifically tested and optimized for Deuteranopia (Red-Green color blindness).
 - User Centric: Developed through a rigorous UCD process, moving from Figma wireframes to Maze usability testing to ensure the interface is intuitive for travelers on the move.
 
-#Figma High Fidelity Link
+# Figma High Fidelity Link
+
 https://www.figma.com/proto/ucBppxYKnkH4W2RkWEXQIr/Hi-Fi-App?node-id=107-250&p=f&t=lszLGM7TfUa79Wyu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+Frontend & Core Development
+
+Language: Java (Android SDK)
+
+UI Architecture: XML Layouts with a focus on Material Design components.
+
+Mapping: Google Maps SDK for Android (Real-time marker clustering and location tracking).
+
+Dependency Management: Gradle (Kotlin DSL).
+
+Backend & Data
+
+Firebase Authentication: Secure user sign-in and profile management.
+
+Firebase Firestore: NoSQL cloud database for real-time community "Discovery" posts.
+
+Google Places API: Integration for searching and verifying local landmarks.
+
+Design & Research (UCD)
+
+Figma: High-fidelity prototyping and interactive wireframing.
+
+Maze: Quantitative usability testing and heatmapping to validate the UI.
+
+Accessibility Testing: Color contrast validation and Deuteranopia simulation filters.
 
 # Images
 <p align="center">
