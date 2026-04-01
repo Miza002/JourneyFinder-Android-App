@@ -14,34 +14,24 @@ Journey Finder bridges the gap between static navigation and real time community
 - User Centric: Developed through a rigorous UCD process, moving from Figma wireframes to Maze usability testing to ensure the interface is intuitive for travelers on the move.
 
 # Figma High Fidelity Link
+[![Figma Design Prototype](https://www.figma.com/proto/ucBppxYKnkH4W2RkWEXQIr/Hi-Fi-App?node-id=107-250&p=f&t=lszLGM7TfUa79Wyu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 
-https://www.figma.com/proto/ucBppxYKnkH4W2RkWEXQIr/Hi-Fi-App?node-id=107-250&p=f&t=lszLGM7TfUa79Wyu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
 
-Frontend & Core Development
+# Frontend Development
+- Language: Java
+- UI Architecture: XML Layouts with a focus on design components.
+- Mapping: Google Maps SDK for Android (Real time location tracking).
+- Dependency Management: Gradle Kotlin DSL.
 
-Language: Java (Android SDK)
-
-UI Architecture: XML Layouts with a focus on Material Design components.
-
-Mapping: Google Maps SDK for Android (Real-time marker clustering and location tracking).
-
-Dependency Management: Gradle (Kotlin DSL).
-
-Backend & Data
-
-Firebase Authentication: Secure user sign-in and profile management.
-
-Firebase Firestore: NoSQL cloud database for real-time community "Discovery" posts.
-
-Google Places API: Integration for searching and verifying local landmarks.
-
-Design & Research (UCD)
-
-Figma: High-fidelity prototyping and interactive wireframing.
-
-Maze: Quantitative usability testing and heatmapping to validate the UI.
-
-Accessibility Testing: Color contrast validation and Deuteranopia simulation filters.
+# Backend & Data
+- Firebase Authentication: Secure user sign in and profile management.
+- Firebase Firestore: NoSQL cloud database for real time community posts.
+- Google Places API: Integration for searching and verifying local landmarks.
+- 
+#Design & Research (UCD)
+- Figma: Hi-Fi prototyping and interactive wireframing.
+- Maze: Quantitative usability testing and heatmapping to validate the UI.
+- Accessibility Testing: Color contrast validation and Deuteranopia simulation filters.
 
 # Images
 <p align="center">
