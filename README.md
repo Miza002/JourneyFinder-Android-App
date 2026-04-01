@@ -48,7 +48,7 @@ Accessibility Testing: Color contrast validation and Deuteranopia simulation fil
   <img src="imgs/Loginpage.png" width="300" />
   <img src="imgs/SignPage.png" width="300" />
   <img src="imgs/ForgotPass.png" width="300" />
-  <img src="imgs/HomePage.png" width="300" />
+  <img src="imgs/Homepage.png" width="300" />
   <img src="imgs/CommunityPage.png" width="300" /> 
   <img src="imgs/SharePage.png" width="300" /> 
   <img src="imgs/ProfilePage.png" width="300" /> 
