@@ -14,7 +14,7 @@ Journey Finder bridges the gap between static navigation and real time community
 - User Centric: Developed through a rigorous UCD process, moving from Figma wireframes to Maze usability testing to ensure the interface is intuitive for travelers on the move.
 
 # Figma High Fidelity Link
-[![Figma Design Prototype](https://www.figma.com/proto/ucBppxYKnkH4W2RkWEXQIr/Hi-Fi-App?node-id=107-250&p=f&t=lszLGM7TfUa79Wyu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
+[Figma Design Prototype](https://www.figma.com/proto/ucBppxYKnkH4W2RkWEXQIr/Hi-Fi-App?node-id=107-250&p=f&t=lszLGM7TfUa79Wyu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 
 
 # Frontend Development
